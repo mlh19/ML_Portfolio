@@ -8,7 +8,6 @@ body {
     text-align: center;
     /* align-items: center; */
     padding-bottom: 25px;
-    /* background-color: #D5DCF2; */
 }
 
 .main-header img {
@@ -41,8 +40,8 @@ nav li a {
 
 .about {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
 }
 
@@ -70,8 +69,8 @@ nav li a {
 
 #intro5 {
     font-size: 150%;
-    display: block;
-    width: 300px;
+    display:block;
+    width: 20%;
     text-align: left;
     color: #525936;
     justify-content: left;
@@ -81,18 +80,20 @@ nav li a {
     font-size: 40pt;
     color:#525936;
     padding-bottom: 30px;
+    
 }
 
 .about article {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18pt;
+
 }
 
 .about article img {
     height: 50vh;
-    margin: 15px;
+    margin: 10px;
+    
 }
 
 #intro3 {
@@ -107,23 +108,25 @@ nav li a {
     display: flex;
     flex-direction:row;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     justify-content: center;
+    background-color: #E5E4E0;
 }
 
 
 div h1 {
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     font-size: 40pt;
     text-align: center;
-    background-color:#F2F0F0;
+    background-color: #E5E4E0;
     color:#525936;
 }
 
 #card {
     min-height: 500px;
-    border: 2px solid black ;
+    border: 2px solid #515931 ;
 }
 
 
@@ -133,6 +136,7 @@ div h1 {
     border: 2px solid black ;
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 
 }
 
@@ -142,11 +146,15 @@ div h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
 
 }
 
 .contact h1 {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     font-size: 40pt;
 }
 
