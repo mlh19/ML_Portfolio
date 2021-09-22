@@ -11,7 +11,9 @@ body {
 }
 
 .main-header img {
-    height: 80vh;
+    height: 75vh;
+    /* object-fit: fill;
+    width: 100vw !important; */
 }
 
 nav {
@@ -40,8 +42,8 @@ nav li a {
 
 .about {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 70px;
     
 }
 
@@ -189,6 +191,14 @@ nav li a {
     height: 100%;
 }
 
+.text-center {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 75px;
+    padding-top: 100px;
+    background-color: #E5E4E0;;
+}
+
 
 /* @media screen and (max-width:375px)
 .main-header {
@@ -211,15 +221,15 @@ nav li a {
 
 } */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     main-header img {
         width: 1500px;
         height: 780px;
     } .about{
-        font-size: .5rem;
+        font-size: .rem;
     }
 
-}
+} */
 
 
 
