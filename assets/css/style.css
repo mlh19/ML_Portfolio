@@ -8,10 +8,11 @@ body {
     text-align: center;
     /* align-items: center; */
     padding-bottom: 25px;
+   
 }
 
 .main-header img {
-    height: 75vh;
+    height: 80vh;
     /* object-fit: fill;
     width: 100vw !important; */
 }
@@ -55,26 +56,29 @@ nav li a {
 
 #intro {
     font-size: 550%;
-    text-align: right;
+    text-align: center;
     color: #525936;
-
+    
 }
+
 
 #intro2 {
     font-size: 250%;
-    display: block;
+    display: flex;
     width: 500px;
-    text-align: left;
+    text-align: center;
     color: #525936;
     justify-content: left;
     
 }
 
 #intro3 {
-    max-width: 20%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     /* padding-left: 30px; */
     color:#525936;
+    display: flex;
+    margin: 40px;
 }
 
 .about h1 {
@@ -94,8 +98,8 @@ nav li a {
 .about article img {
     height: 50vh;
     margin: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 10px; */
+    /* padding-right: 60px; */
     
     
 }
