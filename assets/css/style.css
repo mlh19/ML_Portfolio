@@ -52,28 +52,27 @@ nav li a {
 }
 
 #intro {
-    font-size: 500%;
-    text-align: left;
+    font-size: 550%;
+    text-align: right;
     color: #525936;
 
 }
 
 #intro2 {
-    font-size: 150%;
+    font-size: 250%;
     display: block;
-    width: 300px;
+    width: 500px;
     text-align: left;
     color: #525936;
     justify-content: left;
+    
 }
 
-#intro5 {
-    font-size: 150%;
-    display:block;
-    width: 20%;
+#intro3 {
+    max-width: 20%;
     text-align: left;
-    color: #525936;
-    justify-content: left;
+    /* padding-left: 30px; */
+    color:#525936;
 }
 
 .about h1 {
@@ -93,15 +92,10 @@ nav li a {
 .about article img {
     height: 50vh;
     margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     
-}
-
-#intro3 {
-    max-width: 20%;
-    text-align: left;
-    padding-left: 30px;
-    color:#525936;
-
+    
 }
 
 .work {
@@ -115,7 +109,7 @@ nav li a {
 }
 
 
-div h1 {
+.headingWork {
     padding-top: 50px;
     padding-bottom: 10px;
     font-size: 40pt;
@@ -137,30 +131,67 @@ div h1 {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-
 }
 
 
 .contact {
     color:#525936;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 65px;
     padding-bottom: 100px;
-
-
-
 }
 
-.contact h1 {
+
+.headingContact {
     padding-bottom: 50px;
     font-size: 40pt;
+    padding-top: 50px;
+    text-align: center;
+    color:#525936;
 }
 
-@media screen and (max-width:700px) {
+.contact ul {
+    display: flex;
+}
 
+.contact ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact ul li:first-of-type {
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
     
 }
+
+.icon img{
+    object-fit: contain;
+    width:100%;
+    height: 100%;
+}
+
+#github {
+    width: 32px;
+    height:32px;
+}
+
+#github img {
+    object-fit: contain;
+    width:100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:700px) {
+    
+}`
 
 
