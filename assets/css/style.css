@@ -46,12 +46,12 @@ nav li a {
     text-decoration: none;
     color:#525936;
 }
+
 /* Centered text, used padding for extra space in this section */
 .about {
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
-    
 }
 
 /* title */
@@ -59,8 +59,8 @@ nav li a {
     font-size: 40pt;
     color:#525936;
     padding-bottom: 30px;
-    
 }
+
 /*  Set div to flex display content vertically and give setion a 20% width */
 .about div {
     flex-direction: column;
@@ -83,7 +83,6 @@ nav li a {
     text-align: left;
     color: #525936;
     justify-content: left;
-
 }
 
 /* this intro div is to describe who I am. Had to ceate many divs to make the content flex and appear to have 3 columns */
@@ -148,7 +147,6 @@ nav li a {
 .card img {
     width: 100%;
     /* height: 100%; */
-
 }
 
 /* prefrences for the one large box */
@@ -231,38 +229,54 @@ nav li a {
 
 
 
-
-
-/* @media screen and (max-width:375px)
-.main-header {
-    width: 400px;
-    heigtht: 160px
-
-    
-} */
-
-/* @media screen and (max-width: 375px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
     .main-header img {
-        width: 645px;
-        height: 270px;
-    }
+        width: 125vw !important; 
+    } 
     nav li {
-        font-size: 1rem;
-        text-align: left;
-        text-decoration: none;
-    }
+    font-size: 12pt;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#projected {
+    flex-direction: row !important;
+    width: 630vw !important;
+    
+}
+.about {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+#intro {
+    font-size: 25pt;
+    text-align: left;
+    margin-right: 50px;
+   
+}
+#intro2 {
+    font-size: 15pt;
+    text-align: left;
+    justify-content: left;
+    margin-right: 50px;
+}
+#intro3 {
+    text-align: center;
+} 
+.about article {
+    align-items: center;
+    justify-content: center;
+}
+.about article img {
+    height: 30vh;
+    margin-left: 30px;
+    padding-left: 100px;
 
-} */
+}
 
-/* @media screen and (max-width: 768px) {
-    main-header img {
-        width: 1500px;
-        height: 780px;
-    } .about{
-        font-size: .rem;
-    }
 
-} */
 
 
 
