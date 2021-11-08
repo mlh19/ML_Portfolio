@@ -9,7 +9,7 @@
 3. The 'Contact' area contains live links to my GitHub, Linkedin, Twitter, and Phone Number. 
 
 ## Final Result Screenshot
-![screenShot](./assets/images/screenShot.png)
+![screenShot](./assets/images/screencapture.png)
 
 ## Deployed Websites
 - [GitHub Pages Link](https://mlh19.github.io/ML_Portfolio/)
@@ -19,5 +19,5 @@
 
 - Completed this assignment independently.
 
-- This portfolio is 2 of 4 updates. 
+
 
